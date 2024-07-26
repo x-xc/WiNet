@@ -11,7 +11,7 @@ from DWT_IDWT.DWT_IDWT_Functions import *
 # __all__ = ['DWT_1D', 'IDWT_1D', 'DWT_2D', 'IDWT_2D', 'DWT_3D', 'IDWT_3D', 'DWT_2D_tiny']
 
 # When use dwt/idwt multiply times in a network for different image scales, 
-# DWT_IDWT_layer is faster than DWT_IDWT_layer
+# DWT_IDWT_layer2 is faster than DWT_IDWT_layer
 
 class DWT_3D(Module):
     """
