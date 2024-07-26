@@ -54,7 +54,6 @@ class BaseModel(pl.LightningModule):
             save_flow(m[:,:,:,:,112], f[:,:,:,:,112], w[:,:,:,:,112], g[:,:,:,112,1:].permute(0, 3, 1, 2), path+f'/sample_{steps}.jpg')          
         return loss
     
-    
     def validation_step(self, batch, batch_idx):
         m, f, m_lab, f_lab = self.get_inputs(batch)
         ddf = self(m.float(), f.float())
