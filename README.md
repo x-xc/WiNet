@@ -13,7 +13,9 @@ Model weight can be found in
 WiNet_code/ckpts
 ```
 ```
+#Training
 nohup python tr_IR_3D_WiNet.py >> "./WiNet_diff_IXI.out"
+#Testing
 python infer_bilinear_WiNet.py
 ```
 The jupyter notebook file is used to get the evaluation results.
