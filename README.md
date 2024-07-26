@@ -10,8 +10,10 @@ Thanks [@Junyu](https://github.com/junyuchen245) for [the preprocessed IXI data]
 
 
 ### Training and Testing
+```
 nohup python tr_IR_3D_WiNet.py >> "./WiNet_diff_IXI.out"
-python infer_bilinear_WiNet.py 
+python infer_bilinear_WiNet.py
+```
 ### Citation
 
 
