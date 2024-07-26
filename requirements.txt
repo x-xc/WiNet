@@ -1,0 +1,16 @@
+einops==0.4.1
+lightning==2.0.0
+matplotlib==3.7.2
+matplotlib==3.5.3
+monai==1.1.0
+natsort==8.3.1
+numpy==1.23.1
+pystrum==0.3
+pytorch_lightning==1.7.5
+PyWavelets==1.4.1
+scikit_image==0.19.3
+scipy==1.10.1
+scipy==1.9.1
+timm==0.9.2
+torch==1.13.1
+torchvision==0.14.1
