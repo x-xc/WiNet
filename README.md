@@ -1,5 +1,5 @@
 # WiNet: Wavelet-based Incremental Learning for Efficient Medical Image Registration
-The official implementation of WiNet (MICCAI2024) [arxiv](https://arxiv.org/abs/2407.13426)
+The official implementation of WiNet (MICCAI2024) [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2407.13426)
 
 
 
@@ -23,7 +23,14 @@ The jupyter notebook file is used to get the evaluation results.
 WiNet_code/Quantitative_Results/analysis.ipynb
 ```
 ## Citation
-
+```bibtex
+@article{cheng2024winet,
+  title={WiNet: Wavelet-based Incremental Learning for Efficient Medical Image Registration},
+  author={Cheng, Xinxing and Jia, Xi and Lu, Wenqi and Li, Qiufu and Shen, Linlin and Krull, Alexander and Duan, Jinming},
+  journal={arXiv preprint arXiv:2407.13426},
+  year={2024}
+}
+```
 
 ## Acknowledgments
 We would like to acknowledge the [Fourier-Net](https://github.com/xi-jia/Fourier-Net) and [TransMorph](https://github.com/junyuchen245/TransMorph_Transformer_for_Medical_Image_Registration) projects, from which we have adopted some of the code used in our work.
