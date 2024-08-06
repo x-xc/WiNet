@@ -1,5 +1,4 @@
 einops==0.4.1
-lightning==2.0.0
 matplotlib==3.7.2
 matplotlib==3.5.3
 monai==1.1.0
