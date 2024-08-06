@@ -11,8 +11,8 @@ import torch.nn as nn
 from torchvision import transforms
 
 from torch.utils.tensorboard import SummaryWriter
-from lightning.pytorch.loggers import TensorBoardLogger, CSVLogger
-
+# from lightning.pytorch.loggers import TensorBoardLogger, CSVLogger
+from pytorch_lightning.loggers import TensorBoardLogger,CSVLogger
 import data.trans as trans
 import data.datasets as dataset
 
