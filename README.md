@@ -6,7 +6,12 @@ The official implementation of WiNet (MICCAI2024) [![arXiv](https://img.shields.
 ## Dataset
 Thanks [@Junyu](https://github.com/junyuchen245) for [the preprocessed IXI data](https://github.com/junyuchen245/TransMorph_Transformer_for_Medical_Image_Registration/blob/main/IXI/TransMorph_on_IXI.md). We followed the same training, validation, and testing protocol.
 
-
+## Env
+```
+conda create -n myenv python=3.9
+conda activate myenv
+pip install -r requirements.txt
+```
 ## Training and Testing
 Model weight can be found in
 ```
