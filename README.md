@@ -8,6 +8,7 @@ Thanks [@Junyu](https://github.com/junyuchen245) for [the preprocessed IXI data]
 
 ## Env
 ```
+#pip < 24.1
 conda create -n myenv python=3.9
 conda activate myenv
 pip install -r requirements.txt
