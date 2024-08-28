@@ -30,7 +30,11 @@ def train_ixi():
     train_dir = os.path.join(os.getenv('base_dir'), 'IXI_data/Train/')
     val_dir   = os.path.join(os.getenv('base_dir'), 'IXI_data/Val/')
 
-    tr_composed  = transforms.Compose([trans.RandomFlip(0),trans.NumpyType((np.float32, np.float32))])
+    # tr_composed  = transforms.Compose([trans.RandomFlip(0),trans.NumpyType((np.float32, np.float32))])
+    # trans.RandomFlip(0),
+    # fast convergence
+    tr_composed  = transforms.Compose([trans.NumpyType((np.float32, np.float32))])
+    
     val_composed = transforms.Compose([trans.Seg_norm(),trans.NumpyType((np.float32, np.int16))])
     
     train_set = dataset.IXIBrainDataset(glob.glob(train_dir + '*.pkl'), atlas_dir, transforms=tr_composed)
