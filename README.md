@@ -46,7 +46,6 @@ WiNet_code/Quantitative_Results/analysis.ipynb
          publisher = {Springer Nature Switzerland}
          volume = { 2 }
          month = {October},
-         
       }
 ```
 ## Acknowledgments
