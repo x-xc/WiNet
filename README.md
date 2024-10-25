@@ -38,15 +38,14 @@ WiNet_code/Quantitative_Results/analysis.ipynb
 }
 ```
 ```bibtex
-@InProceedings{ Ch_MICCAI2024,
-         author = { Cheng, Xinxing and Jia, Xi and Lu, Wenqi and Li, Qiufu and Shen, Linlin and Krull, Alexander and Duan, Jinming },
-         title = { WiNet: Wavelet-based Incremental Learning for Efficient Medical Image Registration }, 
-         booktitle = {Medical Image Computing and Computer Assisted Intervention -- MICCAI 2024},
-         year = {2024},
-         publisher = {Springer Nature Switzerland}
-         volume = { 2 }
-         month = {October},
-      }
+@inproceedings{cheng2024winet,
+  title={WiNet: Wavelet-based Incremental Learning for Efficient Medical Image Registration},
+  author={Cheng, Xinxing and Jia, Xi and Lu, Wenqi and Li, Qiufu and Shen, Linlin and Krull, Alexander and Duan, Jinming},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  pages={761--771},
+  year={2024},
+  organization={Springer}
+}
 ```
 ## Acknowledgments
 We would like to acknowledge the [Fourier-Net](https://github.com/xi-jia/Fourier-Net) and [TransMorph](https://github.com/junyuchen245/TransMorph_Transformer_for_Medical_Image_Registration) projects, from which we have adopted some of the code used in our work.
