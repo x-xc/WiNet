@@ -1,5 +1,5 @@
 # WiNet: Wavelet-based Incremental Learning for Efficient Medical Image Registration
-The official implementation of WiNet (MICCAI2024) [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2407.13426)
+The official implementation of WiNet (MICCAI2024) [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2407.13426)  [![MICCAI]([https://img.shields.io/badge/arXiv-b31b1b.svg](https://img.shields.io/badge/MICCAI-68BC71.svg))](https://link.springer.com/chapter/10.1007/978-3-031-72069-7_71)
 
 
 
