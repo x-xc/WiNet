@@ -4,8 +4,8 @@ import torch.nn.functional as F
 from nn_util import *
 from utils import *
 from DWT_IDWT.DWT_IDWT_Functions import *
-# wavelet='haar'
-# wavelet='db4'
+# wavelet='haar' # for Brain
+# wavelet='db4' # for Cardiac 
 class UNet(nn.Module):
     def __init__(self, in_channel, n_classes, start_channel, wavelet='haar', dwt_fn=1, up_train =True):
         self.in_channel = in_channel
